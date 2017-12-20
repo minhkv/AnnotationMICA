@@ -7,5 +7,5 @@ name = "20171123_Hung_lan1_23-11-2017__11-05-57"
 path = os.path.join(spread_sheet_folder, name + ".xlsx")
 xl = pd.ExcelFile(path)
 print(xl.sheet_names)
-df = pd.read_excel(path)
-print(df.head)
+df = pd.read_excel(path, xl.sheet_names[1])
+print(df[['Action', 'K6']])
