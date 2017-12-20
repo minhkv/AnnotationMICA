@@ -1,0 +1,7 @@
+﻿sit_on_bed_and_stand_up;816;958
+sit_on_bed_and_stand_up;959;1096
+lie_on_bed_and_sit_up;1097;1328
+lie_on_bed_and_sit_up;1329;1510
+lie_on_bed_and_fall_left;1511;1777
+lie_on_bed_and_fall_left;1801;2023
+lie_on_bed_and_fall_right;2089;2416
