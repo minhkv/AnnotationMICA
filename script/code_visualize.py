@@ -1,6 +1,6 @@
 import os,cv2
 
-annotation_folder = "/media/minhkv/Data/HocTap/DaiHoc/MasterI/datasets_mica/Annotation_dataset"
+annotation_folder = "/media/minhkv/Data/HocTap/DaiHoc/MasterI/datasets_mica/Annotation_dataset/Kinect1"
 video_folder = "/media/minhkv/Data/HocTap/DaiHoc/MasterI/datasets_mica/compressed_dataset"
 
 list_annotation = sorted(os.listdir(annotation_folder))
@@ -11,7 +11,7 @@ video_path = os.path.join(video_folder, os.path.splitext(list_annotation[file_id
 f=open(annotation_path,'rt')
 lines=f.read().strip().split('\n')
 lines = [s.replace('\xef\xbb\xbf', '') for s in lines]
-print lines
+# print lines
 
 vid=cv2.VideoCapture(video_path)
 count=0
@@ -30,11 +30,11 @@ count=0
 while True:
 	ret,img=vid.read()
 	ret,img=vid.read()
-	cv2.putText(img,gt[count],(10,100), cv2.FONT_HERSHEY_SIMPLEX, 2,(0,255,0),8)#,cv2.LINE_AA)
+	cv2.putText(img,gt[count],(10,100), cv2.FONT_HERSHEY_SIMPLEX, 2,(0,255,0),8,cv2.LINE_AA)
 	img=cv2.resize(img,(1080,800))
 	cv2.imshow('',img)
 
-	ret=cv2.waitKey(1)
+	ret=cv2.waitKey(100)
 	count+=2
 	
 	if ret==27:

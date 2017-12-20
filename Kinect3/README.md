@@ -3,6 +3,7 @@ Cú pháp file annotation:
 <id sự kiện>;<frame bắt đầu>;<frame kết thúc>
 
 Danh sách id sự kiện:
+
 	1: Đi bộ theo các hướng
 	2: Chạy chậm 
 	3: Nhảy tại chỗ
