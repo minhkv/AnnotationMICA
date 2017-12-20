@@ -3,6 +3,6 @@ sit_on_bed_and_stand_up;357;487
 sit_on_bed_and_stand_up;488;601
 lie_on_bed_and_sit_up;602;792
 lie_on_bed_and_sit_up;793;942
-lie_on_bed_and_fall_left;943;1206
-lie_on_bed_and_fall_left;1245;1521
-lie_on_bed_and_fall_right;1565;1861
+lie_on_bed_and_fall_left;1020;1206
+lie_on_bed_and_fall_left;1342;1521
+lie_on_bed_and_fall_right;1691;1861

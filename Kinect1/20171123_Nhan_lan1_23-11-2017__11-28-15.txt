@@ -1,4 +1,5 @@
-﻿walk;331;767
+﻿background;0;262
+walk;263;767
 run_slowly;768;1187
 move_hand_and_leg;1188;1583
 move_hand_and_leg;1584;1990
@@ -12,7 +13,7 @@ right_hand_pick_up;2408;2480
 right_hand_pick_up;2481;2560
 right_hand_pick_up;2561;2672
 right_hand_pick_up;2673;2727
-stagger;2791;3160
+stagger;2728;3160
 front_fall;3161;3323
 front_fall;3391;3598
 back_fall;3664;3940

@@ -1,4 +1,5 @@
-﻿walk;225;606
+﻿background;0;224
+walk;225;606
 run_slowly;607;1005
 static_jump;1006;1415
 move_hand_and_leg;1416;1814
@@ -18,13 +19,13 @@ front_fall;3118;3257
 front_fall;3307;3450
 back_fall;3583;3694
 back_fall;3789;3940
-back_fall; 4003;4155
+back_fall;4003;4155
 left_fall;4192;4340
 left_fall;4370;4503
 left_fall;4535;4687
 right_fall;4769;4933
 right_fall;4940;5137
-right_fall;5138;5330
+right_fall;5193;5330
 crawl;5456;5621
 sit_on_chair_then_stand_up;5774;5952
 sit_on_chair_then_stand_up;5953;6075

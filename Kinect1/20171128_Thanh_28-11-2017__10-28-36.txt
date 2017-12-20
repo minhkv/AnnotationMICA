@@ -13,7 +13,7 @@ right_hand_pick_up;3062;3142
 right_hand_pick_up;3143;3225
 stagger;3226;3625
 front_fall;3626;3769
-front_fall;3814;4222
+front_fall;3885;4222
 back_fall;4327;4520
 back_fall;4559;4794
 left_fall;4841;5079

@@ -22,7 +22,6 @@ left_fall;4513;4808
 left_fall;4844;5033
 right_fall;5091;5360
 right_fall;5408;5646
-right_fall;5690;5552
 crawl;5885;5997
 sit_on_chair_then_stand_up;6175;6309
 sit_on_chair_then_stand_up;6310;6420
@@ -37,3 +36,4 @@ lie_on_bed_and_sit_up;9858;10005
 lie_on_bed_and_fall_left;10006;10344
 lie_on_bed_and_fall_left;10378;10628
 lie_on_bed_and_fall_right;10629;10956
+lie_on_bed_and_sit_up;11011;11191
