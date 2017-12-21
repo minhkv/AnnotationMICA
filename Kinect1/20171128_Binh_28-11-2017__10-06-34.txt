@@ -1,5 +1,4 @@
-﻿background;0;202
-walk;202;608
+﻿walk;202;608
 run_slowly;609;1007
 static_jump;1008;1421
 move_hand_and_leg;1422;1791
@@ -27,14 +26,15 @@ right_fall;4824;4954
 right_fall;5082;5213
 crawl;5453;5636
 sit_on_chair_then_stand_up;5875;6094
+move_chair;6095;6372
 sit_on_chair_then_fall_left;6373;6602
 sit_on_chair_then_fall_right;6670;6974
 sit_on_chair_then_fall_right;7026;7266
 sit_on_bed_and_stand_up;7920;8059
-sit_on_bed_and_stand_up;8060;8175
-sit_on_bed_and_stand_up;8176;8341
-lie_on_bed_and_sit_up;8342;8568
-lie_on_bed_and_sit_up;8569;8796
+sit_on_bed_and_stand_up;8061;8175
+sit_on_bed_and_stand_up;8177;8341
+lie_on_bed_and_sit_up;8343;8568
+lie_on_bed_and_sit_up;8570;8796
 lie_on_bed_and_fall_left;8797;9097
-lie_on_bed_and_fall_left;9098;9360
+lie_on_bed_and_fall_left;9099;9360
 lie_on_bed_and_fall_right;9409;9695

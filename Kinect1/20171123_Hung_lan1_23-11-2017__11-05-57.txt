@@ -30,6 +30,6 @@ right_fall;4994;5146
 crawl;5147;5377
 sit_on_chair_then_stand_up;5515;5630
 sit_on_chair_then_stand_up;5631;5758
-move_chair;5759;6003
+move_chair;5759;6193
 sit_on_chair_and_fall_left;6404;6584
 sit_on_chair_and_fall_right;6603;6843

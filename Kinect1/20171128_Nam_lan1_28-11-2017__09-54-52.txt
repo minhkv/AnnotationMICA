@@ -1,5 +1,4 @@
-﻿background;0;224
-walk;225;606
+﻿walk;225;606
 run_slowly;607;1005
 static_jump;1006;1415
 move_hand_and_leg;1416;1814

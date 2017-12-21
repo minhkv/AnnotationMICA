@@ -1,5 +1,4 @@
-﻿background;0;262
-walk;263;767
+﻿walk;263;767
 run_slowly;768;1187
 move_hand_and_leg;1188;1583
 move_hand_and_leg;1584;1990
@@ -25,7 +24,7 @@ right_fall;5327;5512
 crawl;5634;5819
 sit_on_chair_then_stand_up;5920;6057
 sit_on_chair_then_stand_up;6058;6168
-move_chair;6185;6383
+move_chair;6185;6560
 sit_on_chair_then_fall_left;6561;6781
 sit_on_chair_then_fall_right;6864;7094
 sit_on_chair_then_fall_right;7135;7354
