@@ -1,7 +1,7 @@
 from __future__ import print_function
 from utils import *
 import os
-kinect_num = "Kinect1"        
+kinect_num = "Kinect3"   
 project_folder = "/media/minhkv/Data/HocTap/DaiHoc/MasterI/datasets_mica/Annotation_dataset"
 input_txt = os.path.join(project_folder, "text_label", kinect_num)
 output_txt = os.path.join(project_folder, "number_label", kinect_num)

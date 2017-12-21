@@ -1,7 +1,7 @@
 import os,cv2,sys
 from utils import *
 project_folder = "/media/minhkv/Data/HocTap/DaiHoc/MasterI/datasets_mica/Annotation_dataset"
-annotation_folder = os.path.join(project_folder, "number_label", "Kinect1")
+annotation_folder = os.path.join(project_folder, "text_label", "Kinect3")
 video_folder = "/media/minhkv/Data/HocTap/DaiHoc/MasterI/datasets_mica/compressed_dataset"
 
 list_annotation = sorted(os.listdir(annotation_folder))
@@ -26,8 +26,8 @@ for i in xrange(15000):
 for l in lines:
 	a= l.split(';')
 	for r in range(int(a[1]),int(a[2])):
-		# gt[r]=a[0]
-		gt[r]=convert_label(a[0], to_text=True)
+		gt[r]=a[0]
+		# gt[r]=convert_label(a[0], to_text=True)
 
 
 count=0
