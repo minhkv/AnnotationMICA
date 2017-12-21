@@ -4,7 +4,7 @@ import os
 kinect_num = "Kinect1"        
 project_folder = "/media/minhkv/Data/HocTap/DaiHoc/MasterI/datasets_mica/Annotation_dataset"
 input_txt = os.path.join(project_folder, "text_label", kinect_num)
-output_txt = os.path.join(project_folder, "number_label", "Kinect3")
+output_txt = os.path.join(project_folder, "number_label", kinect_num)
 
 if not os.path.exists(output_txt):
     os.makedirs(output_txt)
