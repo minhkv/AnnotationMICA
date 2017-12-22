@@ -1,5 +1,6 @@
 import os,cv2,sys
 from utils import *
+
 project_folder = "/media/minhkv/Data/HocTap/DaiHoc/MasterI/datasets_mica/Annotation_dataset"
 annotation_folder = os.path.join(project_folder, "text_label", "Kinect3")
 video_folder = "/media/minhkv/Data/HocTap/DaiHoc/MasterI/datasets_mica/compressed_dataset"
