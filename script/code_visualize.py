@@ -18,6 +18,7 @@ lines = [s.replace('\xef\xbb\xbf', '') for s in lines]
 
 vid=cv2.VideoCapture(video_path)
 print "{}".format((video_path))
+print "{}".format(annotation_path)
 count=0
 gt=[]
 for i in xrange(15000):
