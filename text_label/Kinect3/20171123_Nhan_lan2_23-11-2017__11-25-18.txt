@@ -1,7 +1,7 @@
-sit_on_bed_and_stand_up;160;387
-sit_on_bed_and_stand_up;388;667
-lie_on_bed_and_sit_up;668;893
-lie_on_bed_and_sit_up;894;1053
-lie_on_bed_and_fall_left;1054;1316
-lie_on_bed_and_fall_left;1437;1669
-lie_on_bed_and_fall_right;1712;1980
+sit_on_bed_and_stand_up;220;347
+sit_on_bed_and_stand_up;464;602
+lie_on_bed_and_sit_up;801;866
+lie_on_bed_and_sit_up;956;1049
+lie_on_bed_and_fall_left;1178;1268
+lie_on_bed_and_fall_left;1522;1624
+lie_on_bed_and_fall_right;1827;1919

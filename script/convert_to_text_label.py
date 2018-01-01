@@ -12,7 +12,7 @@ if not os.path.exists(output_txt):
 list_txt = get_list_file_txt(input_txt)
 
 for input_file in list_txt:
-    if "eadme." in input_file:
+    if "eadme." in input_file or "mapping" in input_file:
         continue
     print ("[Convert] Converting: {}".format(os.path.basename(input_file)))
     list_action = read_line_in_file(input_file)

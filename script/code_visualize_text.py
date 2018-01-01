@@ -6,6 +6,8 @@ annotation_folder = os.path.join(project_folder, "text_label", "Kinect3")
 video_folder = "/media/minhkv/Data/HocTap/DaiHoc/MasterI/datasets_mica/compressed_dataset"
 
 list_annotation = sorted(os.listdir(annotation_folder))
+for i, ann in enumerate(list_annotation):
+	print ("{} {}".format(i, ann))
 # file_id = 10
 file_id = int(sys.argv[1])
 print file_id
@@ -27,9 +29,8 @@ for i in xrange(15000):
 for l in lines:
 	a= l.split(';')
 	for r in range(int(a[1]),int(a[2])):
-		gt[r]=a[0]
+		gt[r]=str(r) + "_" + a[0]
 		# gt[r]=convert_label(a[0], to_text=True)
-
 
 count=0
 
@@ -40,7 +41,7 @@ while True:
 	img=cv2.resize(img,(800,600))
 	cv2.imshow('',img)
 
-	ret=cv2.waitKey(15)
+	ret=cv2.waitKey(10)
 	count+=2
 	if ret != -1:
 		print ret

@@ -31,9 +31,8 @@ sit_on_chair_then_fall_left;7941;8026
 sit_on_chair_then_fall_left;8225;8293
 sit_on_chair_then_fall_right;8420;8487
 sit_on_chair_then_fall_right;8622;8735
-sit_on_bed_and_stand_up;9535;9645
-sit_on_bed_and_stand_up;9693;9785
-sit_on_bed_and_stand_up;9846;9926
+sit_on_bed_and_stand_up;9652;9718
+sit_on_bed_and_stand_up;9803;9872
 lie_on_bed_and_sit_up;10035;10106
 lie_on_bed_and_sit_up;10133;10191
 lie_on_bed_and_sit_up;10276;10319

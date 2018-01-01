@@ -22,10 +22,10 @@ right_fall;5475;5544
 crawl;5907;6013
 sit_on_chair_then_stand_up;6245;6335
 move_chair;6447;6729
-sit_on_chair_then_fall_left;6793;6978
-sit_on_chair_then_fall_right;7225;7412
+sit_on_chair_then_fall_left;6908;6978
+sit_on_chair_then_fall_right;7306;7412
 sit_on_bed_and_stand_up;8274;8478
 sit_on_bed_and_stand_up;8535;8658
-lie_on_bed_and_sit_up;8797;9018
-lie_on_bed_and_fall_left;9207;9444
-lie_on_bed_and_fall_right;9885;10036
+lie_on_bed_and_sit_up;8924;9018
+lie_on_bed_and_fall_left;9348;9444
+lie_on_bed_and_fall_right;9953;10036
